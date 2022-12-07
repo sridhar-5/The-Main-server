@@ -43,8 +43,8 @@ productModel.watch().on("change", (data) => {
                 addEntryInMessageQueue(
                   user.phone,
                   product.productName,
-                  product.price,
-                  product.description
+                  product.productPrice,
+                  product.productDescription
                 );
               });
             });
