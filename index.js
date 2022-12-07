@@ -59,9 +59,9 @@ productModel.watch().on("change", (data) => {
   }
 });
 
-async function getUsers() {
-  return await customerModel.find();
-}
+// async function getUsers() {
+//   return await customerModel.find();
+// }
 
 // add each notification in the message queue
 async function addEntryInMessageQueue(
