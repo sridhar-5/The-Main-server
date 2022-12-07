@@ -17,3 +17,5 @@ function assignTagsToProduct(productDetails) {
   }
   return productTags;
 }
+
+module.exports = assignTagsToProduct;
